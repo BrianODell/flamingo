@@ -5,7 +5,7 @@ metadata:
   name: default-app
   namespace: argocd
 spec:
-  timeout: 2m
+  timeout: 1m
   path: ./demo/artifacts/default-app
   interval: 5m
   prune: true
